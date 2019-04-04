@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 @import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Charmonman');
 
 h1{
     font-family: 'Muli', sans-serif;
@@ -8,6 +9,11 @@ h1{
 
 p{
       font-family: 'Muli', sans-serif;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
 }
 
 .row{   
@@ -19,12 +25,22 @@ p{
     justify-content: center;
 }
 
+a {
+    color: black;
+    font-family: 'Charmonman', cursive;
+    font-size: 35px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
 .row-footer{
     display: flex;
     justify-content: space-around;
-    border: 5px solid black;
-    background-color: gold;
     }
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
 
 .headshot{
     height: 500px;
@@ -44,18 +60,10 @@ p{
 }
 
 .row-contact{
-    display: flex;
+   display: flex;
     justify-content: space-around;
-    border: 5px solid black;
-    background-color: gold;
 }
 
-.item{
-    margin: 10px;
-    padding: 10px 20px;
-    color: white;
-    background-color: black;
-}
 
 .item2{
     margin: 10px;
@@ -67,5 +75,9 @@ p{
 .img1{
     margin: 10;
     padding: 10px 20px;
+}
+
+body{
+    background-image: linear-gradient(blue, yellow);
 }
 /*Portfolio Work*/
